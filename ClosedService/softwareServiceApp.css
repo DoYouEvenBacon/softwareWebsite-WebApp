@@ -1,0 +1,182 @@
+body {
+    background-color: #f1f1f1;
+	font-family: verdana;
+}
+
+header {
+	background-color: #f1f1f1;
+}
+
+#CSLogo {
+	height: 75px;
+	width: 75px;
+}
+#uoaLogo {
+	width: 256px;
+	height: 92px;
+	display: block;
+	margin: 0 auto;
+}
+
+#leftMenuButton {
+	font-size: 300%;
+	color: #818181;
+	cursor: pointer;
+}
+
+#leftMenuButton:hover {
+	color: #f1f1f1;
+}
+
+#userLoggedIn {
+	text-align: right;
+}
+
+#homePage {
+	display: none;
+	width: 80%;
+	margin: auto;
+}
+
+#guestBookPage {
+	display: none;
+	width: 80%;
+	margin: auto;
+}
+
+#messageForm {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#messageDisplay {
+	width: 80%;
+	margin: auto;	
+}
+#messageSource {
+	width: 100%; 
+	height: 500px; 
+	border: 5px solid #111;
+}
+#nameInput {
+	width: 33%;	
+	margin: auto;
+}
+#messageInput {
+	width: 33%;
+	margin: auto;
+}
+
+#softwarePage {
+	display: none;
+	width: 80%;
+	margin: auto;	
+}
+#softwareSearchInput {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+#softwareTable {
+	width: 80%;
+	margin: auto;
+	text-align: center;	
+}
+
+#registerPage {
+	display: none;
+	width: 80%;
+	margin: auto;
+}
+#registerForm {
+	width: 80%;
+	margin: auto;
+	text-align: center;	
+}
+
+#loginPage {
+	display: none;
+	width: 80%;
+	margin: auto;	
+}
+#loginForm {
+	width: 80%;
+	margin: auto;
+	text-align: center;	
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+
+.downloadButton {
+	font-size: 300%;
+}
+
+.orderEven {
+	border-bottom: 5px solid #46c0f4;
+	
+}
+.orderOdd {
+	border-bottom: 5px solid #0039A6;	
+}
+
+.personIcons {
+	font-size: 300%;
+}
+
+.navbar {
+	background-color: #111;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 30px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closeMenuButton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+.sidenav .backButton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}

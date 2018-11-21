@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<script type="text/javascript" src="softwareServiceApp.js"></script>
+	<link rel="stylesheet" href="softwareServiceApp.css">
+	<link rel="icon" href="http://localhost:8189/logo.svg">
+	<title>Software Central</title>
+</head>
+
+<body>
+	<div id="leftMenuPopout" class="sidenav">
+		<a href="#" class="closeMenuButton" onclick="closeMenu()">&times;</a>
+		<a href="#" onclick="closeDivs(); openHome(); closeMenu()">Home</a>
+		<a href="#" onclick="closeDivs(); openGuestBook(); closeMenu()">Guest Book</a>
+		<a href="#" onclick="closeDivs(); openSoftware(); realTimeSearch(); closeMenu()">Software</a>
+		<hr>
+		<a href="#" onclick="closeDivs(); openLoginPage(); closeMenu()">Login</a>
+		<a href="#" onclick="closeDivs(); openRegisterPage(); closeMenu()">Register</a>
+	</div>
+	<header>
+		<a href="#" onclick="closeDivs(); openHome(); closeMenu()">
+		<img id="CSLogo" src="http://localhost:8189/logo.svg" title="Home" alt="University of Auckland Computer Science Logo">
+		</a>
+		<p id="userLoggedIn"></p>
+	</header>
+	<nav class="navbar">
+		<span id="leftMenuButton" onclick="openMenu()">&#9776;</span>
+	</nav>
+	
+	<body onload="openHome()">
+	<div id="homePage">
+		<h1>Software Central</h1>
+		<br><br><br><br>
+		<p>Welcome to New Zealand's leading online software website. Only registered user may download our software.</p>
+		<a target="_blank">
+		<img id="uoaLogo" src="http://localhost:8189/logo.svg" title="University of Auckland Computer Science home page" alt="University of Auckland Logo">
+		</a>
+	</div>
+
+	<div id="guestBookPage">
+		<h1>Guest Book</h1>
+		<div id="messageDisplay"> 
+			<iframe id="messageSource" src="http://localhost:8188/Service.svc/htmlcomments"></iframe>
+		</div>
+		<form id="messageForm">
+			Name:
+			<br>
+			<input id="nameInput" name="name" type="text" autofocus>
+			<br><br>
+			Message:
+			<br>
+			<textarea id="messageInput" name="message" rows="5"></textarea>
+			<br><br>
+			<button type="button" onclick="submitMessage()">Submit</button>
+		</form>
+	</div>
+	<div id="softwarePage">
+		<h1>Software</h1>
+		<input id="softwareSearchInput" name="softwareSearchBar" value="" onkeyup="realTimeSearch()" type="text"  autofocus>
+		<table id="softwareTable"></table>
+	</div>
+	<div id="registerPage">
+		<h1>Register</h1>
+		<form id="registerForm">
+			Username:
+			<br>
+			<input id="registerNameInput" name="regName" type="text" autofocus>
+			<br><br>
+			Password:
+			<br>
+			<input id="registerPasswordInput" name="regPassword" type="password">
+			<br><br>
+			Address:
+			<br>
+			<input id="registerAddressInput" name="message" type="text">
+			<br><br>
+			<button type="button" onclick="registerUser()">Register</button>	
+			<p id="registrationMessage">Register to download software</p>			
+		</form>
+		
+	</div>
+	<div id="loginPage">
+		<h1>Login</h1>
+		<form id="loginForm">
+			Username:
+			<br>
+			<input id="loginNameInput" name="loginName" type="text" autofocus>
+			<br><br>
+			Password:
+			<br>
+			<input id="loginPasswordInput" name="loginPassword" type="password">
+			<br><br>
+			<button type="button" onclick="loginUser()">Login</button>
+			<p id="loginMessage">Please login to download software</p>
+		</form>
+	</div>	
+</body>
+</html>

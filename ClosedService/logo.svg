@@ -1,0 +1,22 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 1250">
+	<defs>
+		<clipPath id="clipOrangeGreenSquares">
+			<polygon points="625 125 1125 125 1125 1125 1025 1125" />
+		</clipPath>
+		<clipPath id="clipShapeC">
+			<rect width="1000" height="1000" x="125" y="125"/>
+		</clipPath>		
+		<clipPath id="clipShapeS">
+			<rect width="500" height="1000" x="700" y="125"/>
+		</clipPath>		
+		<clipPath id="clipShapeLine">
+			<rect width="325" height="500" x="645" y="125" />
+		</clipPath>
+	</defs>
+	<rect width="1000" height="1000" x="125" y="125" rx="180" ry="180" fill="#CD853F" />
+	<rect width="1000" height="1000" x="125" y="125" rx="180" ry="180" fill="#81C79D" shape-rendering="auto" clip-path="url(#clipOrangeGreenSquares)"/>
+	<path d="M 725 1425 Q -175 625 725 -225" stroke="#5468FF" stroke-width="150" fill="none" clip-path="url(#clipShapeC)"/>
+	<path d="M 550 310 C 1225 350 1225 1300 0 1550" stroke="#5468FF" stroke-width="150" fill="none" clip-path="url(#clipShapeS)"/>
+	<polygon points="875 0 1062 0 725 426 601 325" fill="#5468FF" clip-path="url(#clipShapeLine)"/>
+	<circle cx="725" cy="325" r="95" fill="#5468FF"/>
+</svg>
