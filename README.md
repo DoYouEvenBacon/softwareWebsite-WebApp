@@ -18,3 +18,4 @@ See the README.txt file
 * Downloading software (Downloading software requires the user to be logged in) <br/>
 
 ## Images of the Website
+![image](https://user-images.githubusercontent.com/45221821/48835759-d6182380-ede5-11e8-8e70-a645cc72ca6a.png)
