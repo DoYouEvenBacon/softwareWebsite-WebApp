@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="UoA.CompSci.UniProxService" CodeBehind="UniProxService.svc.cs" %>
