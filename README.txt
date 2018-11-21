@@ -19,7 +19,3 @@ In the other window type in the command:
 Open your browser and type in:
 http://localhost:8189/softwareServiceApp.html
 
-
-
-& "C:\Program Files\IIS Express\IISExpress.exe" /port:8188 "/path:C:\Users\Alan T\Desktop\Uni\COMPSCI\2018 S2\335\softwareWebApp\OpenService"
-& "C:\Program Files\IIS Express\IISExpress.exe" /port:8189 "/path:C:\Users\Alan T\Desktop\Uni\COMPSCI\2018 S2\335\softwareWebApp\ClosedService"
