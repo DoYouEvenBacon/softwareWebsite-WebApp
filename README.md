@@ -22,6 +22,7 @@ See the README.txt file
 ![Main Menu](https://user-images.githubusercontent.com/45221821/48835999-78380b80-ede6-11e8-8c8e-da739ee9c9de.png)
 ![Guest Book](https://user-images.githubusercontent.com/45221821/48836101-b1707b80-ede6-11e8-8184-f15fabb6c126.png)
 ![Register Page](https://user-images.githubusercontent.com/45221821/48836256-15933f80-ede7-11e8-899e-b8a30582a638.png)
+![Username taken](https://user-images.githubusercontent.com/45221821/48836658-34460600-ede8-11e8-8bdd-ecf62995ed0e.png)
 ![Login Page](https://user-images.githubusercontent.com/45221821/48836299-2e035a00-ede7-11e8-813d-d7442eebcd02.png)
 ![Login Success](https://user-images.githubusercontent.com/45221821/48836473-bda90880-ede7-11e8-987a-1290e40f643d.png)
 ![Software Page](https://user-images.githubusercontent.com/45221821/48836340-5a1edb00-ede7-11e8-894b-8adec4941e20.png)
