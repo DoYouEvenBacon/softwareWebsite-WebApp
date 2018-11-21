@@ -1,5 +1,8 @@
 Software store Web Application - Offline
 
+This website runs on APIs in an Open Service and Closed Service.
+The Open Service APIs can be used without being logged in, while the Closed Service APIs require you to be registered and logged in.
+
 Requires:
 IISExpress 64-bit
 Web Browser (This website was developed in Google Chrome)
