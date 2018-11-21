@@ -28,3 +28,4 @@ See the README.txt file
 ![Software Page](https://user-images.githubusercontent.com/45221821/48836340-5a1edb00-ede7-11e8-894b-8adec4941e20.png)
 ![Download Success](https://user-images.githubusercontent.com/45221821/48836516-db766d80-ede7-11e8-9de3-d0a3b6039618.png)
 ![Live Search](https://user-images.githubusercontent.com/45221821/48836594-0a8cdf00-ede8-11e8-9613-cc192747d4e3.png)
+![PowerShell](https://user-images.githubusercontent.com/45221821/48836701-5cce0000-ede8-11e8-9c7d-a35969353d21.png)
